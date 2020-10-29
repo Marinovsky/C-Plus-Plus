@@ -1,5 +1,12 @@
 var NAVTREEINDEX3 =
 {
+"d7/d65/shortest__common__supersequence_8cpp.html#aa8dca7b867074164d5f45b0f3851269d":[10,0,3,4,2],
+"d7/d65/shortest__common__supersequence_8cpp.html#ad2ee8d7e67da9f6eb85146b08dad95e6":[10,0,3,4,1],
+"d7/d65/shortest__common__supersequence_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[10,0,3,4,0],
+"d7/d6a/bisection__method_8cpp.html":[10,0,11,0],
+"d7/d6a/bisection__method_8cpp.html#a002b2f4894492820fe708b1b7e7c5e70":[10,0,11,0,0],
+"d7/d6a/bisection__method_8cpp.html#a0a3abbca80bc98e7abcb3ae73abe0f14":[10,0,11,0,1],
+"d7/d6a/bisection__method_8cpp.html#a1ab31b90bc584c635ec159468ceed9b2":[10,0,11,0,4],
 "d7/d6a/bisection__method_8cpp.html#a2003b5b2dcfff0769b957ab5c968b03d":[10,0,11,0,2],
 "d7/d6a/bisection__method_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[10,0,11,0,3],
 "d7/d75/postfix__evaluation_8cpp.html":[10,0,12,10],
@@ -237,17 +244,10 @@ var NAVTREEINDEX3 =
 "d9/d5d/extended__euclid__algorithm_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[10,0,10,8,2],
 "d9/d60/namespacerat__maze.html":[8,0,36],
 "d9/d66/group__machine__learning.html":[7,1],
-"d9/d66/group__machine__learning.html#ga5118e5cbc4f0886e27b3a7a2544dded1":[7,1,8],
 "d9/d66/group__machine__learning.html#ga5118e5cbc4f0886e27b3a7a2544dded1":[10,0,9,0,5],
-"d9/d66/group__machine__learning.html#ga525335710b53cb064ca56b936120431e":[10,0,9,2,0],
+"d9/d66/group__machine__learning.html#ga5118e5cbc4f0886e27b3a7a2544dded1":[7,1,8],
 "d9/d66/group__machine__learning.html#ga525335710b53cb064ca56b936120431e":[10,0,9,1,0],
+"d9/d66/group__machine__learning.html#ga525335710b53cb064ca56b936120431e":[10,0,9,2,0],
 "d9/d66/group__machine__learning.html#ga6c606bc85a3e9fd9d010f874ad760336":[10,0,9,1,6],
-"d9/d66/group__machine__learning.html#ga6c606bc85a3e9fd9d010f874ad760336":[7,1,6],
-"d9/d66/group__machine__learning.html#ga72699c805c19a6cc47a937a6f3378afa":[10,0,9,2,5],
-"d9/d66/group__machine__learning.html#ga72699c805c19a6cc47a937a6f3378afa":[7,1,7],
-"d9/d66/group__machine__learning.html#gab53c14440b2b2dd3172c66afc5c2f63f":[10,0,9,1,3],
-"d9/d66/group__machine__learning.html#gab53c14440b2b2dd3172c66afc5c2f63f":[7,1,5],
-"d9/d66/group__machine__learning.html#gaf5ce14f026d6d231bef29161bac2b485":[10,0,9,1,1],
-"d9/d66/group__machine__learning.html#gaf5ce14f026d6d231bef29161bac2b485":[10,0,9,2,1],
-"d9/d66/group__machine__learning.html#gaf5ce14f026d6d231bef29161bac2b485":[7,1,4]
+"d9/d66/group__machine__learning.html#ga6c606bc85a3e9fd9d010f874ad760336":[7,1,6]
 };
