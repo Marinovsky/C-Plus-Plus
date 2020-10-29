@@ -1,7 +1,5 @@
 <map id="tests" name="tests">
-<area shape="rect" id="node1" title=" " alt="" coords="5,56,56,83"/>
-<area shape="rect" id="node2" href="$df/dce/namespacegraph.html#a535880c6cc8adc001d20a126928b1121" title="Function that add edge between two nodes or vertices of graph." alt="" coords="105,5,219,32"/>
-<area shape="rect" id="node4" href="$df/dce/namespacegraph.html#a09c8bd26358ed719bdfebe5fc22e2b3d" title="Function runs the dijkstra algorithm for some source vertex and target vertex in the graph and return..." alt="" coords="104,56,220,83"/>
-<area shape="rect" id="node5" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/io/manip/endl.html#" title=" " alt="" coords="126,107,198,133"/>
-<area shape="rect" id="node3" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/utility/pair/make_pair.html#" title=" " alt="" coords="268,5,376,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,56,57"/>
+<area shape="rect" id="node2" href="$df/dce/namespacegraph.html#a372ff051a7bc6c91d34a7b58edf8dfce" title="Function that add edge between two nodes or vertices of graph." alt="" coords="104,5,217,32"/>
+<area shape="rect" id="node3" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/io/manip/endl.html#" title=" " alt="" coords="125,56,197,83"/>
 </map>
