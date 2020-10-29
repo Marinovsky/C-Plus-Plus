@@ -1,12 +1,19 @@
 var NAVTREEINDEX4 =
 {
+"d9/d66/group__machine__learning.html":[7,1],
+"d9/d66/group__machine__learning.html#ga5118e5cbc4f0886e27b3a7a2544dded1":[10,0,9,0,5],
+"d9/d66/group__machine__learning.html#ga5118e5cbc4f0886e27b3a7a2544dded1":[7,1,8],
+"d9/d66/group__machine__learning.html#ga525335710b53cb064ca56b936120431e":[10,0,9,1,0],
+"d9/d66/group__machine__learning.html#ga525335710b53cb064ca56b936120431e":[10,0,9,2,0],
+"d9/d66/group__machine__learning.html#ga6c606bc85a3e9fd9d010f874ad760336":[10,0,9,1,6],
+"d9/d66/group__machine__learning.html#ga6c606bc85a3e9fd9d010f874ad760336":[7,1,6],
 "d9/d66/group__machine__learning.html#ga72699c805c19a6cc47a937a6f3378afa":[10,0,9,2,5],
 "d9/d66/group__machine__learning.html#ga72699c805c19a6cc47a937a6f3378afa":[7,1,7],
 "d9/d66/group__machine__learning.html#gab53c14440b2b2dd3172c66afc5c2f63f":[10,0,9,1,3],
 "d9/d66/group__machine__learning.html#gab53c14440b2b2dd3172c66afc5c2f63f":[7,1,5],
+"d9/d66/group__machine__learning.html#gaf5ce14f026d6d231bef29161bac2b485":[10,0,9,1,1],
 "d9/d66/group__machine__learning.html#gaf5ce14f026d6d231bef29161bac2b485":[10,0,9,2,1],
 "d9/d66/group__machine__learning.html#gaf5ce14f026d6d231bef29161bac2b485":[7,1,4],
-"d9/d66/group__machine__learning.html#gaf5ce14f026d6d231bef29161bac2b485":[10,0,9,1,1],
 "d9/d69/median__search_8cpp.html":[10,0,15,8],
 "d9/d69/median__search_8cpp.html#a868847218f694e78bf433a0ff7648bae":[10,0,15,8,1],
 "d9/d69/median__search_8cpp.html#ae1a3968e7947464bee7714f6d43b7002":[10,0,15,8,2],
@@ -242,12 +249,5 @@ var NAVTREEINDEX4 =
 "db/da9/classqueue.html#a592c0580551ec0d3b4d43e8198d8a377":[9,0,33,5],
 "db/da9/classqueue.html#ab2019d91e28c06de325fb3076b93a930":[9,0,33,2],
 "db/da9/classqueue.html#ab45a4bfef7eba256a9c027bae86fc196":[9,0,33,10],
-"db/da9/classqueue.html#ac16ccadebb765e1ddbe415cdce1a17a5":[9,0,33,8],
-"db/da9/classqueue.html#ac2fff88dce4d7d2eb7134af382bd1b31":[9,0,33,7],
-"db/da9/classqueue.html#ad215eee654953d25150bb25d5ac12b7c":[9,0,33,1],
-"db/da9/classqueue.html#ae2a7a36270f5d15218a180fa59e5b3a5":[9,0,33,9],
-"db/dc0/namespacebacktracking.html":[8,0,1],
-"db/dca/kadane2_8cpp.html":[10,0,3,2],
-"db/dca/kadane2_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[10,0,3,2,0],
-"db/dca/kadane2_8cpp.html#af3029007a422a914a85c0b0122f1c7b4":[10,0,3,2,1]
+"db/da9/classqueue.html#ac16ccadebb765e1ddbe415cdce1a17a5":[9,0,33,8]
 };
