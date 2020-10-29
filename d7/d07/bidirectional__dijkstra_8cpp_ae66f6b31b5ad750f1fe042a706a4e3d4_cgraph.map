@@ -1,6 +1,5 @@
 <map id="main" name="main">
-<area shape="rect" id="node1" title="Main function." alt="" coords="5,31,56,57"/>
-<area shape="rect" id="node2" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/io/manip/endl.html#" title=" " alt="" coords="223,5,295,32"/>
-<area shape="rect" id="node3" href="$d7/d07/bidirectional__dijkstra_8cpp.html#a483bb8ccf42aaf7375a83e91490eda1e" title=" " alt="" coords="104,56,155,83"/>
-<area shape="rect" id="node4" href="$df/dce/namespacegraph.html#a372ff051a7bc6c91d34a7b58edf8dfce" title="Function that add edge between two nodes or vertices of graph." alt="" coords="203,56,316,83"/>
+<area shape="rect" id="node1" title="Main function." alt="" coords="5,5,56,32"/>
+<area shape="rect" id="node2" href="/Users/runner/work/C-Plus-Plus/C-Plus-Plus/doc/cppreference-doxygen-web.tag.xml$cpp/io/manip/endl.html#" title=" " alt="" coords="203,5,275,32"/>
+<area shape="rect" id="node3" href="$d7/d07/bidirectional__dijkstra_8cpp.html#a483bb8ccf42aaf7375a83e91490eda1e" title=" " alt="" coords="104,31,155,57"/>
 </map>

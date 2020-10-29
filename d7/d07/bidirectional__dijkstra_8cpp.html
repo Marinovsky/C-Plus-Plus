@@ -454,7 +454,7 @@ Here is the call graph for this function:</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d07/bidirectional__dijkstra_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.svg" width="322" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d07/bidirectional__dijkstra_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.svg" width="280" height="63"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -542,18 +542,18 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        4, <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt;<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/utility/pair.html">std::pair&lt;int, int&gt;</a>&gt;());</div>
 <div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;std::vector&lt;std::pair&lt;int, int&gt;</a>&gt;&gt; adj1_2(</div>
 <div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;        4, <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt;<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/utility/pair.html">std::pair&lt;int, int&gt;</a>&gt;());</div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    <a class="code" href="../../df/dce/namespacegraph.html#a372ff051a7bc6c91d34a7b58edf8dfce">graph::addEdge</a>(&amp;adj1_1, &amp;adj1_2, 1, 2, 1);</div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    <a class="code" href="../../df/dce/namespacegraph.html#a372ff051a7bc6c91d34a7b58edf8dfce">graph::addEdge</a>(&amp;adj1_1, &amp;adj1_2, 4, 1, 2);</div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    <a class="code" href="../../df/dce/namespacegraph.html#a372ff051a7bc6c91d34a7b58edf8dfce">graph::addEdge</a>(&amp;adj1_1, &amp;adj1_2, 2, 3, 2);</div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    <a class="code" href="../../df/dce/namespacegraph.html#a372ff051a7bc6c91d34a7b58edf8dfce">graph::addEdge</a>(&amp;adj1_1, &amp;adj1_2, 1, 3, 5);</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    <a class="code" href="../../d7/d07/bidirectional__dijkstra_8cpp.html#aa72f402f9a232b4a5e512e294f5ffbf0">graph::bidirectional_dijkstra::addEdge</a>(&amp;adj1_1, &amp;adj1_2, 1, 2, 1);</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    <a class="code" href="../../d7/d07/bidirectional__dijkstra_8cpp.html#aa72f402f9a232b4a5e512e294f5ffbf0">graph::bidirectional_dijkstra::addEdge</a>(&amp;adj1_1, &amp;adj1_2, 4, 1, 2);</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    <a class="code" href="../../d7/d07/bidirectional__dijkstra_8cpp.html#aa72f402f9a232b4a5e512e294f5ffbf0">graph::bidirectional_dijkstra::addEdge</a>(&amp;adj1_1, &amp;adj1_2, 2, 3, 2);</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    <a class="code" href="../../d7/d07/bidirectional__dijkstra_8cpp.html#aa72f402f9a232b4a5e512e294f5ffbf0">graph::bidirectional_dijkstra::addEdge</a>(&amp;adj1_1, &amp;adj1_2, 1, 3, 5);</div>
 <div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160; </div>
 <div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    <span class="keywordtype">int</span> s = 1, t = 3;</div>
-<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    assert(graph::Bidijkstra(&amp;adj1_1, &amp;adj1_2, s - 1, t - 1) == 3);</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    assert(graph::bidirectional_dijkstra::Bidijkstra(&amp;adj1_1, &amp;adj1_2, s - 1, t - 1) == 3);</div>
 <div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Test 1 Passed...&quot;</span> &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
 <div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160; </div>
 <div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    s = 4, t = 3;</div>
 <div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Initiating Test 2...&quot;</span> &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
-<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;    assert(graph::Bidijkstra(&amp;adj1_1, &amp;adj1_2, s - 1, t - 1) == 5);</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;    assert(graph::bidirectional_dijkstra::Bidijkstra(&amp;adj1_1, &amp;adj1_2, s - 1, t - 1) == 5);</div>
 <div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Test 2 Passed...&quot;</span> &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
 <div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160; </div>
 <div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;std::vector&lt;std::pair&lt;int, int&gt;</a>&gt;&gt; adj2_1(</div>
@@ -579,7 +579,7 @@ Here is the call graph for this function:</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d07/bidirectional__dijkstra_8cpp_a483bb8ccf42aaf7375a83e91490eda1e_cgraph.svg" width="223" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d07/bidirectional__dijkstra_8cpp_a483bb8ccf42aaf7375a83e91490eda1e_cgraph.svg" width="182" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 
@@ -594,7 +594,6 @@ Here is the call graph for this function:</div>
 <div class="ttc" id="adistance_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/iterator/distance.html">std::distance</a></div><div class="ttdeci">T distance(T... args)</div></div>
 <div class="ttc" id="abidirectional__dijkstra_8cpp_html_a483bb8ccf42aaf7375a83e91490eda1e"><div class="ttname"><a href="../../d7/d07/bidirectional__dijkstra_8cpp.html#a483bb8ccf42aaf7375a83e91490eda1e">tests</a></div><div class="ttdeci">static void tests()</div><div class="ttdef"><b>Definition:</b> bidirectional_dijkstra.cpp:192</div></div>
 <div class="ttc" id="abasic_ostream_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a></div></div>
-<div class="ttc" id="anamespacegraph_html_a372ff051a7bc6c91d34a7b58edf8dfce"><div class="ttname"><a href="../../df/dce/namespacegraph.html#a372ff051a7bc6c91d34a7b58edf8dfce">graph::addEdge</a></div><div class="ttdeci">void addEdge(std::vector&lt; std::vector&lt; int &gt;&gt; *adj, int u, int v)</div><div class="ttdoc">Function that add edge between two nodes or vertices of graph.</div><div class="ttdef"><b>Definition:</b> connected_components.cpp:46</div></div>
 <div class="ttc" id="abidirectional__dijkstra_8cpp_html_aa72f402f9a232b4a5e512e294f5ffbf0"><div class="ttname"><a href="../../d7/d07/bidirectional__dijkstra_8cpp.html#aa72f402f9a232b4a5e512e294f5ffbf0">graph::bidirectional_dijkstra::addEdge</a></div><div class="ttdeci">void addEdge(std::vector&lt; std::vector&lt; std::pair&lt; int, int &gt;&gt;&gt; *adj1, std::vector&lt; std::vector&lt; std::pair&lt; int, int &gt;&gt;&gt; *adj2, int u, int v, int w)</div><div class="ttdoc">Function that add edge between two nodes or vertices of graph.</div><div class="ttdef"><b>Definition:</b> bidirectional_dijkstra.cpp:48</div></div>
 <div class="ttc" id="aendl_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a></div><div class="ttdeci">T endl(T... args)</div></div>
 <div class="ttc" id="agreater_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/utility/functional/greater.html">std::greater</a></div></div>
