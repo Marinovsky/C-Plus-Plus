@@ -494,8 +494,8 @@ Here is the call graph for this function:</div>
 <div class="fragment"><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                                                           {</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    int64_t <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/iterator/distance.html">distance</a> = <a class="code" href="../../d7/d07/bidirectional__dijkstra_8cpp.html#a330a2b0a904f01802ada1f8f3b28e76c">INF</a>;</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i : workset_) {</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <span class="keywordflow">if</span> (distance_[0][workset_[i]] + distance_[1][workset_[i]] &lt; distance) {</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/iterator/distance.html">distance</a> = distance_[0][workset_[i]] + distance_[1][workset_[i]];</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <span class="keywordflow">if</span> (distance_[0][i] + distance_[1][i] &lt; distance) {</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/iterator/distance.html">distance</a> = distance_[0][i] + distance_[1][i];</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        }</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    }</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordflow">return</span> <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/iterator/distance.html">distance</a>;</div>
