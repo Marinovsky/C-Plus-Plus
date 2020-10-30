@@ -1,12 +1,5 @@
 var NAVTREEINDEX5 =
 {
-"db/da9/classqueue.html#ac16ccadebb765e1ddbe415cdce1a17a5":[9,0,33,8],
-"db/da9/classqueue.html#ac2fff88dce4d7d2eb7134af382bd1b31":[9,0,33,7],
-"db/da9/classqueue.html#ad215eee654953d25150bb25d5ac12b7c":[9,0,33,1],
-"db/da9/classqueue.html#ae2a7a36270f5d15218a180fa59e5b3a5":[9,0,33,9],
-"db/dc0/namespacebacktracking.html":[8,0,1],
-"db/dca/kadane2_8cpp.html":[10,0,3,2],
-"db/dca/kadane2_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[10,0,3,2,0],
 "db/dca/kadane2_8cpp.html#af3029007a422a914a85c0b0122f1c7b4":[10,0,3,2,1],
 "db/dd3/ode__forward__euler_8cpp.html":[10,0,11,9],
 "db/dd3/ode__forward__euler_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97":[10,0,11,9,3],
@@ -249,5 +242,12 @@ var NAVTREEINDEX5 =
 "de/dc3/binaryheap_8cpp.html":[10,0,2,3],
 "de/dc3/binaryheap_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[10,0,2,3,1],
 "de/dcf/binary__exponent_8cpp.html":[10,0,10,1],
-"de/dcf/binary__exponent_8cpp.html#a31dbf5f7ceb9c9eec831ef9f7782291f":[10,0,10,1,1]
+"de/dcf/binary__exponent_8cpp.html#a31dbf5f7ceb9c9eec831ef9f7782291f":[10,0,10,1,1],
+"de/dcf/binary__exponent_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[10,0,10,1,2],
+"de/dcf/binary__exponent_8cpp.html#aeb48dce0725e63d19147944f41843c73":[10,0,10,1,0],
+"de/dd3/newton__raphson__method_8cpp.html":[10,0,11,8],
+"de/dd3/newton__raphson__method_8cpp.html#a2003b5b2dcfff0769b957ab5c968b03d":[10,0,11,8,0],
+"de/dd3/newton__raphson__method_8cpp.html#a3d3f7f41977394680af6ebbed96f3386":[10,0,11,8,1],
+"de/dd3/newton__raphson__method_8cpp.html#a5c5ff05b9f37ae59dad67e1d4f6cd51d":[10,0,11,8,4],
+"de/dd3/newton__raphson__method_8cpp.html#a75f355966e0a97665eaf5a4c79baa7af":[10,0,11,8,3]
 };
