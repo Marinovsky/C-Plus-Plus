@@ -358,7 +358,7 @@ Here is the call graph for this function:</div>
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;<span class="comment"></span>        <span class="keywordflow">if</span>(visited[currentNode] == 1){</div>
 <div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d7/d07/bidirectional__dijkstra_8cpp.html#a92be37fb7c01e4eb0ac79925000287b3">Shortest_Path_Distance</a>(workset, dist);</div>
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;        }</div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        visited[currentNode] = 1;<span class="comment"></span></div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        visited[currentNode] = <span class="keyword">true</span>;<span class="comment"></span></div>
 <div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;<span class="comment">        /// reversed search</span></div>
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;<span class="comment"></span> </div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        <span class="comment">// If pq[1].size() is equal to zero then the node/ vertex is not reachable from t</span></div>
