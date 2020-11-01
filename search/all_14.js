@@ -84,7 +84,7 @@ var searchData=
   ['shell_5fsort2_2ecpp_1635',['shell_sort2.cpp',['../d4/d7a/shell__sort2_8cpp.html',1,'']]],
   ['shortest_5fcommon_5fsupersequence_1636',['shortest_common_supersequence',['../d3/deb/namespaceshortest__common__supersequence.html',1,'']]],
   ['shortest_5fcommon_5fsupersequence_2ecpp_1637',['shortest_common_supersequence.cpp',['../d7/d65/shortest__common__supersequence_8cpp.html',1,'']]],
-  ['shortest_5fpath_5fdistance_1638',['Shortest_Path_Distance',['../d7/d07/bidirectional__dijkstra_8cpp.html#a92be37fb7c01e4eb0ac79925000287b3',1,'graph::bidirectional_dijkstra']]],
+  ['shortest_5fpath_5fdistance_1638',['Shortest_Path_Distance',['../d7/d07/bidirectional__dijkstra_8cpp.html#a92c4f02abd578e0f05c10f958b0fd7ae',1,'graph::bidirectional_dijkstra']]],
   ['show_1639',['show',['../db/d3c/tower__of__hanoi_8cpp.html#a746d9a3984bba88fd6dd91978f6931ed',1,'show(const struct tower *const F, const struct tower *const T, const struct tower *const U):&#160;tower_of_hanoi.cpp'],['../d5/d4c/group__sorting.html#ga0a9a57a1f1bbba3d4822531d002b7e07',1,'show(int *arr, int size):&#160;merge_sort.cpp']]],
   ['show_5farray_1640',['show_array',['../d5/ddb/bogo__sort_8cpp.html#ae8adaeff66471f9ed84f2e673b38a859',1,'bogo_sort.cpp']]],
   ['show_5fdata_1641',['show_data',['../d4/d7a/shell__sort2_8cpp.html#a951127aea9d7e1e53ea9ae0868633246',1,'show_data(T *arr, size_t LEN):&#160;shell_sort2.cpp'],['../d4/d7a/shell__sort2_8cpp.html#a63aaff7cabfa3da2da8b9477b5fad9d6',1,'show_data(T(&amp;arr)[N]):&#160;shell_sort2.cpp']]],

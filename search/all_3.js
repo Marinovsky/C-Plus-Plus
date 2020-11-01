@@ -45,7 +45,7 @@ var searchData=
   ['bernoulli_5fdistribution_157',['bernoulli_distribution',['http://en.cppreference.com/w/cpp/numeric/random/bernoulli_distribution.html',0,'std::bernoulli_distribution'],['http://en.cppreference.com/w/cpp/numeric/random/bernoulli_distribution/bernoulli_distribution.html',0,'std::bernoulli_distribution::bernoulli_distribution()']]],
   ['beta_158',['beta',['http://en.cppreference.com/w/cpp/numeric/random/gamma_distribution/params.html',0,'std::gamma_distribution']]],
   ['bfs_159',['bfs',['../d8/d69/classgraph_1_1_h_k_graph.html#a7491add14d9fc04f679114ca6d6f0f93',1,'graph::HKGraph']]],
-  ['bidijkstra_160',['Bidijkstra',['../d7/d07/bidirectional__dijkstra_8cpp.html#a3489c26c7e08aa7149fe9395986c98bf',1,'graph::bidirectional_dijkstra']]],
+  ['bidijkstra_160',['Bidijkstra',['../d7/d07/bidirectional__dijkstra_8cpp.html#aa3848a7213562b47084585499d3642a5',1,'graph::bidirectional_dijkstra']]],
   ['bidirectional_5fdijkstra_161',['bidirectional_dijkstra',['../d4/d13/namespacebidirectional__dijkstra.html',1,'']]],
   ['bidirectional_5fdijkstra_2ecpp_162',['bidirectional_dijkstra.cpp',['../d7/d07/bidirectional__dijkstra_8cpp.html',1,'']]],
   ['bidirectional_5fiterator_5ftag_163',['bidirectional_iterator_tag',['http://en.cppreference.com/w/cpp/iterator/iterator_tags.html',0,'std']]],
