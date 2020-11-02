@@ -422,52 +422,51 @@ Here is the call graph for this function:</div>
 <p>Main function. </p>
 <dl class="section return"><dt>Returns</dt><dd>0 on exit </dd></dl>
 <div class="fragment"><div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;           {</div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    <span class="comment">// running predefined tests</span></div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    <a class="code" href="../../d7/d07/bidirectional__dijkstra_8cpp.html#a483bb8ccf42aaf7375a83e91490eda1e">tests</a>();</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    uint64_t vertices = uint64_t();</div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    uint64_t edges = uint64_t();</div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Enter the number of vertices : &quot;</span>;</div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_istream.html">std::cin</a> &gt;&gt; vertices;</div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Enter the number of edges : &quot;</span>;</div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_istream.html">std::cin</a> &gt;&gt; edges;</div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160; </div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;std::vector&lt;std::pair&lt;uint64_t, uint64_t&gt;</a>&gt;&gt; adj1(</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;        vertices, <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt;<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/utility/pair.html">std::pair&lt;uint64_t, uint64_t&gt;</a>&gt;());</div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;std::vector&lt;std::pair&lt;uint64_t, uint64_t&gt;</a>&gt;&gt; adj2(</div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;        vertices, <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt;<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/utility/pair.html">std::pair&lt;uint64_t, uint64_t&gt;</a>&gt;());</div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160; </div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;    uint64_t u = uint64_t(), v = uint64_t(), w = uint64_t();</div>
-<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Enter the edges by three integers in this form: u v w &quot;</span></div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;              &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Example: if there is and edge between node 1 and node 4 with &quot;</span></div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;                 <span class="stringliteral">&quot;weight 7 enter: 1 4 7, and then press enter&quot;</span></div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;              &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;    <span class="keywordflow">while</span> (edges--) {</div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;        <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_istream.html">std::cin</a> &gt;&gt; u &gt;&gt; v &gt;&gt; w;</div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;        <a class="code" href="../../d7/d07/bidirectional__dijkstra_8cpp.html#a6f92fe022b7e5d453f7257d763b6f3e2">graph::bidirectional_dijkstra::addEdge</a>(&amp;adj1, &amp;adj2, u, v, w);</div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;        <span class="keywordflow">if</span> (edges != 0) {</div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;            <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Enter the next edge&quot;</span> &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;        }</div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;    }</div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160; </div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;    uint64_t s = uint64_t(), t = uint64_t();</div>
-<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a></div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;        &lt;&lt; <span class="stringliteral">&quot;Enter the source node and the target node separated by a space&quot;</span></div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;        &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Example: If the source node is 5 and the target node is 6 &quot;</span></div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;                 <span class="stringliteral">&quot;enter: 5 6 and press enter&quot;</span></div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;              &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_istream.html">std::cin</a> &gt;&gt; s &gt;&gt; t;</div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;    <span class="keywordtype">int</span> dist =</div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;        <a class="code" href="../../d7/d07/bidirectional__dijkstra_8cpp.html#aa3848a7213562b47084585499d3642a5">graph::bidirectional_dijkstra::Bidijkstra</a>(&amp;adj1, &amp;adj2, s - 1, t - 1);</div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;    <span class="keywordflow">if</span> (dist == -1) {</div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;        <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Target not reachable from source&quot;</span> &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
-<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;    } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;        <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Shortest Path Distance : &quot;</span> &lt;&lt; dist &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
-<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;    }</div>
-<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160; </div>
-<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;}</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    <a class="code" href="../../d7/d07/bidirectional__dijkstra_8cpp.html#a483bb8ccf42aaf7375a83e91490eda1e">tests</a>();  <span class="comment">// running predefined tests</span></div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    uint64_t vertices = uint64_t();</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    uint64_t edges = uint64_t();</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Enter the number of vertices : &quot;</span>;</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_istream.html">std::cin</a> &gt;&gt; vertices;</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Enter the number of edges : &quot;</span>;</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_istream.html">std::cin</a> &gt;&gt; edges;</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160; </div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;std::vector&lt;std::pair&lt;uint64_t, uint64_t&gt;</a>&gt;&gt; adj1(</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;        vertices, <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt;<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/utility/pair.html">std::pair&lt;uint64_t, uint64_t&gt;</a>&gt;());</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;std::vector&lt;std::pair&lt;uint64_t, uint64_t&gt;</a>&gt;&gt; adj2(</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;        vertices, <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector</a>&lt;<a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/utility/pair.html">std::pair&lt;uint64_t, uint64_t&gt;</a>&gt;());</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160; </div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;    uint64_t u = uint64_t(), v = uint64_t(), w = uint64_t();</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Enter the edges by three integers in this form: u v w &quot;</span></div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;              &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Example: if there is and edge between node 1 and node 4 with &quot;</span></div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;                 <span class="stringliteral">&quot;weight 7 enter: 1 4 7, and then press enter&quot;</span></div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;              &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;    <span class="keywordflow">while</span> (edges--) {</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;        <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_istream.html">std::cin</a> &gt;&gt; u &gt;&gt; v &gt;&gt; w;</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;        <a class="code" href="../../d7/d07/bidirectional__dijkstra_8cpp.html#a6f92fe022b7e5d453f7257d763b6f3e2">graph::bidirectional_dijkstra::addEdge</a>(&amp;adj1, &amp;adj2, u, v, w);</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;        <span class="keywordflow">if</span> (edges != 0) {</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;            <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Enter the next edge&quot;</span> &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;        }</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;    }</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160; </div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;    uint64_t s = uint64_t(), t = uint64_t();</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a></div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;        &lt;&lt; <span class="stringliteral">&quot;Enter the source node and the target node separated by a space&quot;</span></div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;        &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Example: If the source node is 5 and the target node is 6 &quot;</span></div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;                 <span class="stringliteral">&quot;enter: 5 6 and press enter&quot;</span></div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;              &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_istream.html">std::cin</a> &gt;&gt; s &gt;&gt; t;</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;    <span class="keywordtype">int</span> dist =</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;        <a class="code" href="../../d7/d07/bidirectional__dijkstra_8cpp.html#aa3848a7213562b47084585499d3642a5">graph::bidirectional_dijkstra::Bidijkstra</a>(&amp;adj1, &amp;adj2, s - 1, t - 1);</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;    <span class="keywordflow">if</span> (dist == -1) {</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;        <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Target not reachable from source&quot;</span> &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;    } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;        <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Shortest Path Distance : &quot;</span> &lt;&lt; dist &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;    }</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160; </div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;}</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
